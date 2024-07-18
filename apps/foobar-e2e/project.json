@@ -3,7 +3,8 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "sourceRoot": "apps/foobar-e2e/src",
-  "targets": {},
+  "tags": [],
   "implicitDependencies": ["foobar"],
-  "tags": []
+  "// targets": "to see all targets run: nx show project foobar-e2e --web",
+  "targets": {}
 }

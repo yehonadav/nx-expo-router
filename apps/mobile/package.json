@@ -2,7 +2,7 @@
   "name": "mobile",
   "version": "0.0.1",
   "private": true,
-  "main": "expo-router/entry",
+  "main": "index.js",
   "dependencies": {
     "@testing-library/jest-native": "*",
     "@testing-library/react-native": "*",
@@ -10,7 +10,11 @@
     "react-native": "*",
     "expo": "*",
     "react-native-svg": "*",
-    "react-native-web": "*"
+    "react-native-web": "*",
+    "expo-router": "*",
+    "expo-splash-screen": "*",
+    "react-native-safe-area-context": "*",
+    "react-native-screens": "*"
   },
   "scripts": {
     "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/mobile && cp yarn.lock apps/mobile",

@@ -1,3 +1,10 @@
+# nx + expo + expo-router
+
+https://github.com/nrwl/nx/discussions/21847?sort=old  
+i followed these instructions:
+https://github.com/nrwl/nx/issues/23101#issuecomment-2147308325  
+
+
 # CoinPouch
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>

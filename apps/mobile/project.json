@@ -3,11 +3,15 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/mobile",
   "projectType": "application",
+  "tags": [],
   "targets": {
     "start": {
       "executor": "@nx/expo:start",
-      "inputs": [{ "env": "EXPO_USE_METRO_WORKSPACE_ROOT" }]
+      "inputs": [
+        {
+          "env": "EXPO_USE_METRO_WORKSPACE_ROOT"
+        }
+      ]
     }
-  },
-  "tags": []
+  }
 }
