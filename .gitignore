@@ -58,3 +58,8 @@ cache/
 
 
 apps/mobile-e2e/artifacts
+/.env
+/apps/mobile/build-*.apk
+/NXExpoRouter.app/
+/apps/mobile/build-*.tar.gz
+/apps/mobile/build-*.ipa
