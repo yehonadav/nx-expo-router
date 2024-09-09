@@ -14,10 +14,21 @@
     "expo-router": "*",
     "expo-splash-screen": "*",
     "react-native-safe-area-context": "*",
-    "react-native-screens": "*"
+    "react-native-screens": "*",
+    "react": "*",
+    "@expo/vector-icons": "*",
+    "@react-navigation/native": "*",
+    "expo-font": "*",
+    "expo-status-bar": "*",
+    "expo-web-browser": "*",
+    "react-test-renderer": "*",
+    "jest-expo": "*",
+    "react-native-svg-transformer": "*",
+    "expo-dev-client": "*"
   },
   "scripts": {
-    "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/mobile && cp yarn.lock apps/mobile",
+    "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/mobile && cp package-lock.json apps/mobile",
     "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/mobile"
-  }
+  },
+  "devDependencies": {}
 }

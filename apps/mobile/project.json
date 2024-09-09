@@ -12,6 +12,71 @@
           "env": "EXPO_USE_METRO_WORKSPACE_ROOT"
         }
       ]
+    },
+    "build:android:development": {
+      "executor": "@nx/expo:build",
+      "inputs": [
+        {
+          "env": "EXPO_USE_METRO_WORKSPACE_ROOT"
+        }
+      ],
+      "options": {
+        "platform": "android",
+        "profile": "development",
+        "local": true
+      }
+    },
+    "build:android:prod": {
+      "executor": "@nx/expo:build",
+      "inputs": [
+        {
+          "env": "EXPO_USE_METRO_WORKSPACE_ROOT"
+        }
+      ],
+      "options": {
+        "platform": "android",
+        "profile": "production",
+        "local": true
+      }
+    },
+    "build:ios:development": {
+      "executor": "@nx/expo:build",
+      "inputs": [
+        {
+          "env": "EXPO_USE_METRO_WORKSPACE_ROOT"
+        }
+      ],
+      "options": {
+        "platform": "ios",
+        "profile": "development",
+        "local": false
+      }
+    },
+    "build:ios:development-simulator": {
+      "executor": "@nx/expo:build",
+      "inputs": [
+        {
+          "env": "EXPO_USE_METRO_WORKSPACE_ROOT"
+        }
+      ],
+      "options": {
+        "platform": "ios",
+        "profile": "development-simulator",
+        "local": true
+      }
+    },
+    "build:ios:prod": {
+      "executor": "@nx/expo:build",
+      "inputs": [
+        {
+          "env": "EXPO_USE_METRO_WORKSPACE_ROOT"
+        }
+      ],
+      "options": {
+        "platform": "ios",
+        "profile": "production",
+        "local": true
+      }
     }
   }
 }
